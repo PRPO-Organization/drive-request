@@ -1,0 +1,12 @@
+curl -X POST "http://localhost:8082/ride-request" \
+  -H "Content-Type: application/json" \
+  -d '{"pickupLocation":"Main St","dropoffLocation":"Airport","driverId":12}'
+
+
+curl -X POST "http://localhost:8082/driver/response" \
+    -H "Content-Type: application/json" \
+    -d '{
+        "rideId": 1,
+        "driverId": 42,
+        "accepted": "true"
+    }'

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             version="3.0"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence
+                                 https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd">
+
+    <persistence-unit name="drive-request-pu" transaction-type="RESOURCE_LOCAL">
+
+        <!-- JPA entity classes -->
+        <class>com.skupina1.persistence.RideRequestEntity</class>
+
+        <properties>
+            <!-- PostgreSQL JDBC connection -->
+            <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/drivers"/>
+            <property name="jakarta.persistence.jdbc.user" value="driveradmin"/>
+            <property name="jakarta.persistence.jdbc.password" value="pass"/>
+
+            <!-- Auto-create / update schema -->
+            <property name="jakarta.persistence.schema-generation.database.action" value="update"/>
+
+            <!-- Optional logging -->
+            <property name="jakarta.persistence.logging.level" value="FINE"/>
+        </properties>
+    </persistence-unit>
+
+</persistence>

@@ -1,0 +1,13 @@
+com/skupina1/service/OrderDriveClient.class
+com/skupina1/persistence/RideRequestRepository.class
+com/skupina1/model/DriverResponse.class
+com/skupina1/service/NotificationService.class
+com/skupina1/service/DriverStatusService.class
+com/skupina1/resource/DriverActionResource.class
+com/skupina1/config/EntityManagerProducer.class
+com/skupina1/service/RideRequestService.class
+com/skupina1/config/JaxRsApplication.class
+com/skupina1/App.class
+com/skupina1/persistence/RideRequestEntity.class
+com/skupina1/resource/RideRequestResource.class
+com/skupina1/model/RideRequest.class
