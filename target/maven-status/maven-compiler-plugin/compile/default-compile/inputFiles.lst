@@ -1,6 +1,7 @@
 /home/stefan/Faks/PRPO/prpodriverequest/drive-request-service/src/main/java/com/skupina1/service/RideRequestService.java
 /home/stefan/Faks/PRPO/prpodriverequest/drive-request-service/src/main/java/com/skupina1/config/EntityManagerProducer.java
 /home/stefan/Faks/PRPO/prpodriverequest/drive-request-service/src/main/java/com/skupina1/resource/RideRequestResource.java
+/home/stefan/Faks/PRPO/prpodriverequest/drive-request-service/src/main/java/com/skupina1/model/Notification.java
 /home/stefan/Faks/PRPO/prpodriverequest/drive-request-service/src/main/java/com/skupina1/service/OrderDriveClient.java
 /home/stefan/Faks/PRPO/prpodriverequest/drive-request-service/src/main/java/com/skupina1/config/JaxRsApplication.java
 /home/stefan/Faks/PRPO/prpodriverequest/drive-request-service/src/main/java/com/skupina1/model/DriverResponse.java
