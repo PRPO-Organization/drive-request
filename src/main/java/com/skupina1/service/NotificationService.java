@@ -10,7 +10,7 @@ import jakarta.ws.rs.client.Entity;
 @ApplicationScoped
 public class NotificationService {
 
-    private static final String NOTIFY_URL = "http://localhost:8081/notifications/send";
+    private static final String NOTIFY_URL = "http://localhost:8081/notifications/send-html";
 
     //implement logic to get this automatically at boot
     private static final String jwt_token = "eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbkB0ZXN0LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc2NDI0ODY1MywiZXhwIjoxNzY0MzM1MDUzfQ.tGryOrLCYzXyU5R9yDwZXBed_wKif5JTfQx-mDwQzpjH9ZQ2f0oBnlVJyGDqhU1R";
